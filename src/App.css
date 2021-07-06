@@ -1,0 +1,29 @@
+.wrapper {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.slider {
+  border: 1px blue solid;
+
+  height: 75vh;
+}
+
+.details {
+  border: 1px blue solid;
+  grid-column-start: 2;
+  grid-column-end: 3;
+
+  height: 75vh;
+  position: relative;
+  left: 30vw;
+}
+
+.footer {
+  border: 1px blue solid;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  height: 25vh;
+}
